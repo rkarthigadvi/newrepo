@@ -1,0 +1,19 @@
+package com.train.day2.primitivetypes;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		byte b = 10;
+		short s = 130;
+		int i = 33000;		
+		/*
+		 * s=b; //b= (byte) s; System.out.println("Byte Value : " +b);
+		 */
+		i=s;
+		s = (byte) i;
+		System.out.println("Short Value : " +s);
+		
+		
+		
+	}
+}

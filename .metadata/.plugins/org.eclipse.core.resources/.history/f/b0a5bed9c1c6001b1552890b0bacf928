@@ -1,0 +1,12 @@
+package com.train.day2.primitivetypes;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		short s = 130;
+		int i = 33000;		
+		i = s;
+		s = (byte) i;
+		System.out.println("Short Value : " +s);		
+	}
+}

@@ -1,0 +1,10 @@
+package com.train.week1day2.qn02;
+
+public class FindNumberoOfVowels {
+
+	public static void main(String[] args) {
+		
+		String input = "NewyorkE";
+		
+	}
+}

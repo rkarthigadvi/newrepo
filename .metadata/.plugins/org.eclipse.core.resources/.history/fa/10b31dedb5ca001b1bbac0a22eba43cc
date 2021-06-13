@@ -1,0 +1,39 @@
+package com.train.week1day2.qn15;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConcatenateTheCharacter {
+
+	public static void main(String[] args) {
+
+		/*
+		 * Question 15: Display unique characters in a string. input:"helloworld" output:"helowrd"
+		 */
+
+		/*
+		 * PsuedoCode: initialize result to store the result and store 3 in variable
+		 * using for each loop iterate the input string
+		 * if string lenght is greater than or equal to the position 
+		 * then add the value to the result
+		 * else add $ to the result and then print it
+		 */
+
+		String input[] = {"abc","da","ram"};
+		int position = 3;
+		String result = "";
+		
+		for (String str : input) {
+			if (str.length() >= position) {
+				char charAt = str.charAt(position - 1);
+				result += charAt;
+			} else {
+				result += "$";
+			}
+			
+		}
+		System.out.println(result);
+	}
+
+}

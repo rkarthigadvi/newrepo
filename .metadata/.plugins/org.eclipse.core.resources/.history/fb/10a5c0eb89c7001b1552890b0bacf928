@@ -1,0 +1,70 @@
+package com.train.week1day2.qn04;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		int a = 10;
+		System.out.println("Using If Loop");
+		
+		if (a == 0) {
+			
+			System.out.println("Neither odd nor even");
+			
+		} else if ( a % 2 == 0 ) {
+			
+			System.out.println("Even Number");
+		} else {
+			System.out.println("Odd Number");
+		}
+		
+		System.out.println("Using Conditional Operator");
+		
+		String result = (a == 0) ? "Neither odd nor even" : (a % 2 == 0  ? "Even" : "Odd");
+		
+		System.out.println(result);
+		
+		System.out.println("Using Switch Case");
+		
+		int choice = a % 2;
+		
+		switch (choice) {
+		case 0:
+			if (a == 0) {
+				System.out.println("Neither even nor odd");
+			} else {
+				System.out.println("Even");
+			}
+			break;
+		case 1:
+			System.out.println("odd");
+			break;
+			
+		default: 
+			System.out.println("Neither even nor odd");
+			break;
+		}
+		
+		System.out.println("Using While Loop");
+		
+		int[] arr = {10, 20, 30, 40};
+		int len = arr.length;
+		int i = 0;
+		
+		while (i < len) {
+			System.out.println(arr[i]);
+			if (arr[i] == 0) {
+				System.out.println("Neither even nor odd");
+			} else if (arr[i] % 2 == 0) {
+				System.out.println("Even Number");
+			} else {
+				System.out.println("Odd Number");
+			}
+			
+		}
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,18 @@
+package com.train.week1day2.qn02;
+
+public class FindNumberoOfVowels {
+
+	public static void main(String[] args) {
+		
+		String input = "NewyorkE";
+		int count = 0;
+		
+		for (int i=0; i<input.length(); i++) {
+			char ch = input.charAt(i);
+			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+				count++;				
+			}			
+		}
+		System.out.println("Number of Vowels in the Given String : " +count);
+	}
+}

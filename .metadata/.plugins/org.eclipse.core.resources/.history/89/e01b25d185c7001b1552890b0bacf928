@@ -1,0 +1,15 @@
+package com.train.week1day2.qn04;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		int a = 1;
+		System.out.println("Using If Loop");
+		
+		
+		
+		
+	}
+	
+}

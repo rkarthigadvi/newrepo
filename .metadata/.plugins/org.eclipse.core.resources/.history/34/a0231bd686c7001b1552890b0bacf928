@@ -1,0 +1,32 @@
+package com.train.week1day2.qn04;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		
+		int a = 3;
+		System.out.println("Using If Loop");
+		
+		if (a == 0) {
+			
+			System.out.println("Neither odd nor even");
+			
+		} else if ( a % 2 == 0 ) {
+			
+			System.out.println("Even Number");
+		} else {
+			System.out.println("Odd Number");
+		}
+		
+		System.out.println("Using Conditional Operator");
+		
+		String result = (a == 0) ? "Neither odd nor even" : (a % 2 == 0  ? "Even" : "Odd");
+		
+		System.out.println(result);
+		
+		System.out.println("Using Switch Case");
+		
+		
+	}
+	
+}

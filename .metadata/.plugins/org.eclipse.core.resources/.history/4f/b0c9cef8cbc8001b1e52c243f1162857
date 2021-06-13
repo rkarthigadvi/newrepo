@@ -1,0 +1,13 @@
+package com.train.week1day2.qn03;
+
+public class SumOfMaxMinNum {
+
+	public static void main(String[] args) {
+	
+		//
+		
+		int[] inputArray = {19, 17, 12};
+	
+	}
+
+}
